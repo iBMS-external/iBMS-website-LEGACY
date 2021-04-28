@@ -1,0 +1,47 @@
+.tabs {
+    padding-left: 10%;
+}
+
+.problem {
+    padding-bottom: 5%;
+}
+
+.btun {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+a.btun:hover {
+    background-color: #0085A1;
+    color:white;
+    text-decoration: none;
+    border-color: white;
+} 
+
+li.active a.btun {
+    background-color: #0085A1;
+    color:white;
+    border-color: white;
+
+}
+/*div.tab-pane p{
+    text-align: justify;
+}*/
+div.tab-pane h3 {
+    text-align: center;
+}
+.blockEls {
+    display: inline-block;
+    margin-right: 100px;
+}
+div.mini p{
+    font-size: 0.7em;
+    /*text-align: left;*/
+}
+div.mini p b{
+    font-size: 1em;
+    
+}
