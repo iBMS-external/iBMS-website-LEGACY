@@ -117,7 +117,7 @@
                     <!--<a class="" href="Meeting-Minutes/2018_06_26.docx" style="color:#f4483f;" target="_blank">Meeting Minutes Folder</a>-->
                     <ul style="margin:1.5em;list-style-type: circle;color:#f4483f"> <!-- https://www.w3schools.com/cssref/pr_list-style-type.asp color:#f4483f-->
                       
-                      <% newsletters.reverse().forEach(function(file){ %>
+                      <% newsletters.slice().reverse().forEach(function(file){ %>
                         <li> <a href="Newsletters/<%= file %>" target="_blank"><%= file %></a> </li>
                       <% }) %>
                     </ul>
